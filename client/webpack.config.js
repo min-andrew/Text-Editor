@@ -26,7 +26,7 @@ module.exports = () => {
 
       // Injects our custom service worker
       new InjectManifest({
-        swSrc: '/src-sw.js',
+        swSrc: './src-sw.js',
         swDest: 'src-sw.js',
       }),
 
@@ -39,8 +39,8 @@ module.exports = () => {
         description: 'Take notes with Javascript text syntax highlighting!',
         background_color: '#225ca3',
         theme_color: '#225ca3',
-        start_url: '/',
-        publicPath: '/',
+        start_url: './',
+        publicPath: './',
         icons: [
           {
             src: path.resolve('src/images/logo.png'),
