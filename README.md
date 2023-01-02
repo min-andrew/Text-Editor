@@ -69,7 +69,7 @@ Andrew Min
     * Multiple files added to optimize the code.
     * See [commit change]() or See [release history]()
 * 1
-    * Started with the beginning files.
+    * Starter code added.
 
 ## License
 
